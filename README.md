@@ -34,8 +34,7 @@ malicious activity.
    feature engineering + hyperparameter optimization).
 4. Selected the top-ranked pipeline (**P2**) based on optimized accuracy.
 5. Deployed the model as an online deployment on IBM Cloud.
-6. Tested the deployed endpoint with realistic traffic samples (normal HTTP session vs. 
-   DoS/neptune-style attack pattern) to validate predictions.
+6. Tested the deployed endpoint with realistic traffic samples to validate predictions.
 
 ##  Results
 - Model type: Binary Classification
@@ -43,7 +42,7 @@ malicious activity.
 
   Prediction Results :
 
-  ![Prediction Results]("netguard-ai-intrusion-detection\step-4 (result).png"))
+  ![Prediction Results](step-4_(result).png)
   
 
 ##  How to Reproduce
